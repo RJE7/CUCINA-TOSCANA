@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+img {
+  width: 80px;
+  height: 60px;
+}
+
+body {
+  font-family: "spline sans", sans-serif;
+  color: #7c7979;
+  line-height: 1.7;
+  background-color: #f7e9e9;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: all o.4s;
+  font-weight: 300;
+}
+
+a:hover {
+  color: #F58d17;
+}
+
+.btn {
+  border-radius: 10px;
+  padding: 14px 38px;
+}
+
+.btn-brand {
+  color: #fff;
+  font-weight: 500;
+  border-color: #F58d17;
+  background-color: #F58d17;
+}
+
+.btn-brand:hover {
+  border-color: #F58d17;
+  background-color: #F58d17;
+  #color: #fff;
+}
+
+.carousel-inner img {
+  height: 750px;
+  object-fit: inheri;
+  background: linear-gradient();
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h5 {
+  font-size: xx-large;
+}
+
+p {
+  font-weight: bold;
+  font-size: larger;
+  font-style: italic;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 50px;
+}
+
+.shadow-on-hover {
+  transition: all 0.4s;
+}
+
+.shadow-on-hover:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  border-radius: 0;
+  padding: 14px 38px;
+}
+
+.divider {
+  width: 60px;
+  height: 2px;
+  display: block;
+  background-color: #F58d17;
+
+
+}
+
+.col-lg-6 img {
+  max-width: none;
+  width: 750px;
+  height: auto;
+}
+
+.intro-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.intro-text {
+  max-width: 500px;
+  margin: 16px auto 0 auto;
+}
+
+.nav-pills .nav-link {
+  background-color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: #222;
+  border-radius: 100px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link.active {
+  background-color: #F58d17;
+  color: #ffffff;
+}
+
+.col-lg-3 img {
+  max-width: none;
+  width: 305px;
+  height: auto;
+
+}
+
+.menu-item .stars {
+  color: #F58d17;
+}
+
+.mb-2 {
+  font-weight: 100;
+  font-size: 200%;
+  font-style: oblique;
+}
+
+#features {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/image16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 3rem 0;
+
+}
+
+.feature {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature .feature-icon {
+  width: 70px;
+  height: 80px;
+  background-color: #F58d17;
+  color: #fff;
+  font-size: 24px;
+  display: grid;
+  align-content: center;
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 100%;
+  max-width: 180px;
+  box-shadow: -10px -10px 0 #F58d17;
+}
+
+#previews {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/image11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  padding: 3rem 0;
+
+
+
+}
+
+.review .quote-icon {
+  color: #F58d17;
+  font-size: 74px;
+  line-height: 1;
+
+}
+
+.carousel-indicators {
+  margin-bottom: -3rem;
+}
+
+#reservation {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/image12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 90vh;
+  padding: 3rem 0;
+
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.form-control:focus {
+
+  box-shadow: none;
+  border-color: #F58d17;
+}
+
+input.form-conntrol {
+  height: 47px;
+}
+
+.insta-posts {
+  position: relative;
+}
+
+.insta-posts .insta-btn {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 26px;
+  transform: translate(-50%,-50%);
+  opacity:0;
+}
+
+.insta-posts img{
+  transition: all 0.4s;
+}
+
+.insta-posts:hover img{
+  transform: scale(1.2);
+}
+.insta-posts:hover .insta-btn{
+  opacity:1 ;
+}
+
+.blog-post img{
+  width:40%;
+  height: 250px;
+  object-fit: cover;
+
+}
+@media (max-width: 768px) {
+  .blog-post {
+    flex-direction: column;
+  }
+  .blog-post img{
+    width: 100%;
+  }
+}
+ 
+footer{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/image13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 70vh;
+  padding: 3rem 0;
+
+}
+
+
+.icon{
+  color: #fff;
+  font-size:xx-large;
+}
+
+ footer p{
+  color: #ffffff9e;
+ }
+
+ ills-dinner {
+  margin-top: 0;
+  padding-top: 0;
+  border: none;
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.anim {
+  animation: fadeIn 2s ease-in-out;
+}
+
